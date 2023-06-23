@@ -1,0 +1,11 @@
+name: shiny
+title:
+username:
+account: seungsu
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 9298087
+bundleId: 7370046
+url: https://seungsu.shinyapps.io/shiny/
+when: 1687334811.6457
+lastSyncTime: 1687334811.64571
