@@ -1,117 +1,93 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!--Powered by (null) 202306130 Feiphone Software Inc-->
 <html>
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-<title>Some stuff about me</title>
-<style type="text/css">
-body {
-  font-family: sans-serif;
-  max-width: 800px;
-  margin: auto;
-  padding: 1em;
-  line-height: 1.5;
-  box-sizing: border-box;
-}
-body, .footnotes, code { font-size: .9em; }
-li li { font-size: .95em; }
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-pre, img { max-width: 100%; }
-pre, pre:hover {
-  white-space: pre-wrap;
-  word-break: break-all;
-}
-pre code {
-  display: block;
-  overflow-x: auto;
-}
-code { font-family: 'DejaVu Sans Mono', 'Droid Sans Mono', 'Lucida Console', Consolas, Monaco, monospace; }
-:not(pre) > code, code[class] { background-color: #F8F8F8; }
-code.language-undefined, pre > code:not([class]) {
-  background-color: inherit;
-  border: 1px solid #eee;
-}
-table {
-  margin: auto;
-  border-top: 1px solid #666;
-}
-table thead th { border-bottom: 1px solid #ddd; }
-th, td { padding: 5px; }
-thead, tfoot, tr:nth-child(even) { background: #eee; }
-blockquote {
-  color: #666;
-  margin: 0;
-  padding-left: 1em;
-  border-left: 0.5em solid #eee;
-}
-hr, .footnotes::before { border: 1px dashed #ddd; }
-.frontmatter { text-align: center; }
-#TOC .numbered li { list-style: none; }
-#TOC .numbered { padding-left: 0; }
-#TOC .numbered ul { padding-left: 1em; }
-table, .body h2 { border-bottom: 1px solid #666; }
-.body .appendix, .appendix ~ h2 { border-bottom-style: dashed; }
-.footnote-ref a::before { content: "["; }
-.footnote-ref a::after { content: "]"; }
-.footnotes::before {
-  content: "";
-  display: block;
-  max-width: 20em;
-}
-
-@media print {
-  body {
-    font-size: 12pt;
-    max-width: 100%;
-  }
-  tr, img { page-break-inside: avoid; }
-}
-@media only screen and (min-width: 992px) {
-  pre { white-space: pre; }
-}
-</style>
+  <title>resume(1)</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <meta name="Generator" content="(null)">
+  <meta name="Version" content="202306130">
+ <style type="text/css">
+    p.p0 {margin: 0px 0px 0px 0px; font: 14px 'Times New Roman'; color: #000000}
+    p.p1 {margin: 0px 0px 0px 259px; font: 45px 'LMRoman17'; color: #b8b8b8}
+    p.p2 {margin: 0px 0px 0px 313px; font: 21px 'LMRomanSlant17'; color: #727272}
+    p.p3 {margin: 0px 0px 0px 121px; font: 14px 'LMRomanSlant12'; color: #3872b3}
+    p.p4 {margin: 0px 0px 0px 113px; font: 14px 'LMRomanSlant12'; color: #3872b3}
+    p.p5 {margin: 0px 0px 0px 136px; font: 14px 'LMRomanSlant12'; color: #3872b3}
+    p.p6 {margin: 0px 0px 0px 95px; font: 14px 'LMRomanSlant12'; color: #3872b3}
+    p.p7 {margin: 0px 0px 0px 94px; font: 14px 'LMRomanSlant12'; color: #3872b3}
+    p.p8 {margin: 0px 0px 0px 72px; font: 17px 'LMRoman12'; color: #3872b3}
+    p.p9 {margin: 0px 0px 0px 11px; font: 13px 'LMRoman10'; color: #000000}
+    p.p10 {margin: 0px 0px 0px 0px; font: 8px 'FontAwesome5Free'; color: #3872b3}
+    p.p11 {margin: 0px 0px 0px 11px; font: 13px 'LMRoman10'; color: #000000}
+    p.p12 {margin: 0px 0px 0px 16px; font: 13px 'LMRoman10'; color: #000000}
+    p.p13 {margin: 0px 0px 0px 0px; font: 13px 'LMRoman10'; color: #000000}
+    p.p14 {margin: 0px 0px 0px 34px; font: 13px 'LMRoman10'; color: #000000}
+    p.p15 {margin: 0px 0px 0px 72px; font: 13px 'LMRoman10'; color: #000000}
+    p.p16 {margin: 0px 0px 0px 42px; font: 13px 'LMRoman10'; color: #000000}
+    p.p17 {margin: 0px 0px 0px 151px; font: 13px 'LMRomanSlant10'; color: #727272}
+    p.p18 {margin: 0px 0px 0px 101px; font: 13px 'LMRomanSlant10'; color: #727272}
+    p.p19 {margin: 0px 0px 0px 66px; font: 13px 'LMRomanSlant10'; color: #727272}
+    span.s0 { font: 45px 'LMRoman17'; color: #b8b8b8}
+    span.s1 { font: 45px 'LMRoman17'; color: #727272}
+    span.s2 { font: 21px 'LMRomanSlant17'; color: #727272}
+    span.s3 { font: 14px 'LMRomanSlant12'; color: #3872b3}
+    span.s4 { font: 17px 'LMRoman12'; color: #3872b3}
+    span.s5 { font: 13px 'LMRoman10'; color: #000000}
+    span.s6 { font: 8px 'FontAwesome5Free'; color: #3872b3}
+    span.s7 { font: 13px 'LMRoman10'; color: #000000}
+    span.s8 { font: 13px 'LMRomanSlant10'; color: #000000}
+    span.s9 { font: 13px 'LMRoman10'; color: #000000}
+    span.s10 { font: 13px 'LMRomanSlant10'; color: #000000}
+    span.s11 { font: 13px 'LMRomanSlant10'; color: #727272}
+    span.s12 { font: 12px 'FontAwesome5Free'; color: #727272}
+    span.s13 { font: 11px 'DejaVuSansMono'; color: #727272}
+    span.s14 { font: 12px 'FontAwesome5Brands'; color: #727272}
+ </style>
 </head>
 <body>
-<div class="include-before">
-</div>
-<div class="frontmatter">
-<div class="title"><h1>Some stuff about me</h1></div>
-<div class="author"><h2></h2></div>
-<div class="date"><h3>May/01/2000</h3></div>
-</div>
-<div class="body">
-<h1 id="some-stuff-about-me">Some stuff about me</h1>
-<ul>
-<li>I am 24 years old.</li>
-<li>I like to be active and work out.</li>
-<li>I enjoy weight training, running, etc. I’ve also recently gotten interested in mountain climbing and often go.</li>
-<li>Marine Corps expires September 2021</li>
-</ul>
-<h1 id="education">Education</h1>
-<pre><code>## # A tibble: 3 × 5
-##   what                                         when      with                 where        why  
-##   &lt;chr&gt;                                        &lt;chr&gt;     &lt;chr&gt;                &lt;chr&gt;        &lt;lis&gt;
-## 1 High school                                  2016-2018 Gwang-ju high school Gyeonggi, K… &lt;chr&gt;
-## 2 B.S. degree of Computer Software Engineering 2019 ~    Hanyang Univ.        Seoul, Korea &lt;chr&gt;
-## 3 B.S. degree of entrepreneurship              2023 ~    Hanyang Univ.        Seoul, Korea &lt;chr&gt;
-</code></pre>
-<h1 id="nobel-prizes">Nobel Prizes</h1>
-<pre><code>## # A tibble: 2 × 3
-##   what                      when with                                                           
-##   &lt;glue&gt;                   &lt;dbl&gt; &lt;chr&gt;                                                          
-## 1 Nobel Prize in Physics    1903 Awarded for her work on radioactivity with Pierre Curie and He…
-## 2 Nobel Prize in Chemistry  1911 Awarded for the discovery of radium and polonium
-</code></pre>
-<h1 id="skills">Skills</h1>
-<ul>
-<li>C, Java, Python, R</li>
-<li>Flutter, Shiny</li>
-<li>MySQL</li>
-</ul>
-</div>
-<div class="include-after">
-</div>
+<p class="p0"><br></p>
+<p class="p0"><br></p>
+<p class="p1"><span class="s0">Seungsu </span><span class="s1">Lee</span></p>
+<p class="p2"><span class="s2">B.S. degree student</span></p>
+<p class="p3"><br></p>
+<p class="p3"><span class="s3">Hello, my name is Seungsu Lee.</span></p>
+<p class="p4"><span class="s3">I am majoring in computer software</span></p>
+<p class="p5"><span class="s3">at Hanyang University.</span></p>
+<p class="p6"><span class="s3">And also pursuing a minor in entrepreneurship</span></p>
+<p class="p7"><span class="s3">convergence. My goal is to become a startup CEO</span></p>
+<p class="p7"><br></p>
+<p class="p8"><span class="s4">Some stuﬀ about me</span></p>
+<p class="p9"><span class="s5">I am 24 years old.   </span><span class="s6">○</span></p>
+<p class="p10"><br></p>
+<p class="p9"><span class="s5">I like to be active and work out.   </span><span class="s6">○</span></p>
+<p class="p10"><br></p>
+<p class="p11"><span class="s7">I enjoy weight training, running, etc. I’ve also recently gotten interested in mountain climbing   </span><span class="s6">○</span></p>
+<p class="p10"><br></p>
+<p class="p9"><span class="s5">and often go.</span></p>
+<p class="p9"><span class="s5">Marine Corps expires September 2021   </span><span class="s6">○</span></p>
+<p class="p10"><br></p>
+<p class="p8"><span class="s4">Education</span></p>
+<p class="p12"><span class="s5">2016-2018  <b>High school</b>, </span><span class="s8">Gwang-ju high school</span><span class="s5">, Gyeonggi, Korea.</span></p>
+<p class="p13"><br></p>
+<p class="p14"><span class="s5">2019   </span><span class="s9"><b>B.S. degree of Computer Software Engineering</b>, </span><span class="s10">Hanyang Univ.</span><span class="s9">, Seoul,</span></p>
+<p class="p15"><span class="s5">Korea.</span></p>
+<p class="p15"><br></p>
+<p class="p14"><span class="s5">2023   <b>B.S. degree of entrepreneurship</b>, </span><span class="s8">Hanyang Univ.</span><span class="s5">, Seoul, Korea.</span></p>
+<p class="p13"><br></p>
+<p class="p8"><span class="s4">Nobel Prizes</span></p>
+<p class="p16"><span class="s5">1903  </span><span class="s7">Nobel Prize in Physics. Awarded for her work on radioactivity with Pierre Curie</span></p>
+<p class="p15"><span class="s5">and Henri Becquerel</span></p>
+<p class="p16"><span class="s5">1911  Nobel Prize in Chemistry. Awarded for the discovery of radium and polonium</span></p>
+<p class="p8"><span class="s4">Skills</span></p>
+<p class="p9"><span class="s5">C, Java, Python, R   </span><span class="s6">○</span></p>
+<p class="p10"><br></p>
+<p class="p9"><span class="s5">Flutter, Shiny   </span><span class="s6">○</span></p>
+<p class="p10"><br></p>
+<p class="p9"><span class="s5">MySQL   </span><span class="s6">○</span></p>
+<p class="p10"><br></p>
+<p class="p17"><span class="s11">School of CSE, Hanyang Univ.</span></p>
+<p class="p18"><span class="s12">￿ </span><span class="s11">+82 10-3275-0644   •  </span><span class="s12">￿</span><span class="s13"><i>mqm00@hanyang.ac.kr</i></span></p>
+<p class="p19"><span class="s12">￿ </span><span class="s11">seungsu.shinyapps.io  •  </span><span class="s14">￿ </span><span class="s11">Lee   •  </span><span class="s14">￿ </span><span class="s11">github.com/mqm00</span></p>
 </body>
 </html>

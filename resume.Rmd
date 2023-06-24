@@ -1,0 +1,59 @@
+---
+title: "Lee Seung su"
+author: "B.S. degree of Computer Software Engineering, Hangyang Univ."
+date: "`r Sys.Date()`"
+output:
+  prettydoc::html_pretty:
+    theme: architect
+    highlight: github
+---
+<div style="position: relative; text-align: left;">
+  <img class="profile-pic" src="/Users/seungsu/hyu_ds/seungsu_pic.jpg" alt="Profile Picture" style="width: 150px; height: 150px; border-radius: 50%;">
+</div>
+
+## About Me
+*Name:*  `Seungsu Lee` \
+*Position:*  `B.S. degree student` \
+*Address:*  `School of CSE, Hanyang Univ.` \
+*Phone:*  `+82 10-3275-0644` \
+*Website:*  `https://seungsu.shinyapps.io/shiny/` \
+*Email:*  `mqm00@hanyang.ac.kr` \
+*Twitter:*  `@Leeee` \
+*Github:*  `https://github.com/mqm00` \
+
+## Something More
+
+ * I'm `24 years old`.
+ * I like to be `active and work out`. 
+ * I enjoy weight `weight training`, `running`, `climbing` etc.
+ * `Marine Corps` expires September 2021
+
+## Education
+```yaml
+  "High school", "2016-2018", "Gwang-ju high school", "Gyeonggi, Korea",
+  "B.S. degree of Computer Software Engineering", "2019~", "Hanyang Univ.", "Seoul, Korea",
+  "B.S. degree of entrepreneurship", "2023~", "Hanyang Univ.", "Seoul, Korea"
+```
+
+## Project
+```yaml
+"Modify OS called Xv6", using C
+"Create DB for Student class Enroll", using MySQL
+"Application 'Heming Way' Development", using Flutter
+"Application 'Order system' Development", using Java, Kotlin
+```
+
+## Skills
+
+```yaml
+ "C, Java, Python, R"
+ "Flutter, Shiny"
+ "MySQL"
+```
+
+
+## Self-introduction
+
+Hello! my name is Seungsu Lee. I am majoring in computer software at Hanyang University.And also pursuing a minor in entrepreneurship convergence. My goal is to become a startup CEO. Thank you.
+
+
