@@ -1,6 +1,8 @@
 ---
 title: "Lee Seung su"
-author: "B.S. degree of Computer Software Engineering, Hangyang Univ."
+author: 
+ - B.S. degree of Computer Software Engineering, Hangyang Univ.
+ - B.S. degree of entrepreneurship, Hanyang Univ"
 date: "`r Sys.Date()`"
 output:
   prettydoc::html_pretty:
@@ -54,6 +56,6 @@ output:
 
 ## Self-introduction
 
-Hello! my name is Seungsu Lee. I am majoring in computer software at Hanyang University.And also pursuing a minor in entrepreneurship convergence. My goal is to become a startup CEO. Thank you.
+Hello! my name is Seungsu Lee. I am majoring in computer software at Hanyang University. And also pursuing a minor in entrepreneurship convergence. My goal is to become a startup CEO. Thank you.
 
 
